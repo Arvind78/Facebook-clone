@@ -1,0 +1,55 @@
+.visite {
+    margin-top: 40px;
+    margin-right: 10px;
+    flex: 0.40;
+   
+    position: sticky;
+    top: 0;
+}
+.visiteHeader {
+  margin-top: 10px;
+   cursor: pointer;
+   font-size: 14px; 
+
+}
+.visite_h_left {
+    display: flex;
+    justify-content:space-between;
+
+    align-items: center;
+    cursor: pointer;
+    
+
+
+}
+.visitebodyoption {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    
+    line-height: 10px;
+}
+.visitebodyoption svg{
+    font-size: 16px;
+}
+.visite_h_right svg{
+    padding: 0px 10px;
+}
+.visiteHeader1 {
+ 
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
+    cursor: pointer;
+  
+}
+.visiteleft1 {
+   /* background-color: black; */
+  overflow: hidden;
+
+}
+.visiteleft1 h4{
+    font-size: 14px;
+}

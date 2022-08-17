@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+ import React from 'react';
+ import RightSideBar from '../src/componet/RightSideBar.js'
+ import Feed from './componet/Feed.js'
+  import Header from './componet/Header.js'
+import Login from './componet/Login.js';
+  import Sidebar  from './componet/Sidebar.js'
+  import{useStateValue} from './componet/StateProvider.js'
+
 
 function App() {
+    const [{user},disptch] =useStateValue;
+  // const user ="nnh"
+console.log(`" hello "${user}`)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {
+      !user?(<Login/>):(
+        <div>
+        <Header/>
+        <div className="app_body">
+        <Sidebar/>
+         <Feed/>
+      <RightSideBar/>
+        </div>
+       </div>
+      ) 
+    }
+ 
+    </>
   );
 }
 

@@ -1,0 +1,34 @@
+.login_box{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login img{
+    width: 200px;
+}
+.login {
+    width: 400px;
+   border-radius: 10px;
+    margin: 0px auto;
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+     /* border: px solid #2381fa; */
+    text-align: center;
+}
+.login h2{
+    font-size: 34px;
+}
+.login button{
+    padding:  10px;
+    font-size: 14px;
+    background-color: #1778f2;
+    border: 0;
+    font-weight: bold;
+    outline: 0;
+    color: white    ;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}

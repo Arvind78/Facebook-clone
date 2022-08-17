@@ -1,0 +1,101 @@
+
+.main {
+    display: flex;
+    padding: 5px 18px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    height: 40px;
+    z-index: 99;
+    justify-content: space-between;
+ box-shadow: 0 0 3px #ccc;
+}
+.left {
+    display: flex;
+    align-items: center;
+
+}
+.logo {
+    height: 40px;
+}
+.searchbar {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 0 10px;
+    height: 40px;
+    margin-left: 20px;
+}
+.searchbar input {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    min-width: 200px;
+}
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.middleIcon {
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.middleIcon:hover {
+    border-radius: 180px;
+
+    background-color: whitesmoke;
+
+
+}
+.middleIcon svg {
+    color: gray;
+    font-size:26px;
+}
+.middleIcon svg:hover {
+    color: #2381fa;
+}
+.middleIcon-active svg {
+    color: #2381fa;
+}
+.middleIcon-active {
+    position: relative;
+}
+.middleIcon-active::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    /* left: 12px; */
+    width: 65px;
+
+    right: 0;
+    bottom: -5px;
+    background-color: #2381fa;
+    border-radius: 30px;
+}
+.right {
+    display: flex;
+
+    align-items: center;
+}
+.user-Info {
+    display: flex;
+    gap: 8PX;
+    align-items: center;
+
+}
+.user-Info H5 {
+    margin-right: 20PX;
+   
+
+}
+.right .MuiButtonBase-root{
+    color: black;
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+    background-color:whitesmoke;
+}
+ 

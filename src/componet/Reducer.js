@@ -1,5 +1,5 @@
  export const initialState={
-  user:"jjjj"
+  user:null;
  }
  const Reducer =(state,action)=>{
     switch(action.type){

@@ -62,7 +62,8 @@ const HanderOpen =()=>{
 
     <div  className= "massegeSender">
        <div className="massegeSender_top">
-           <Avatar/>
+       <Avatar src={('https://i.postimg.cc/6TsghcG6/photo-1503443207922-dff7d543fd0e-ixlib-rb-1-2.jpg')}/>
+
          <form>
         <input type="text"  placeholder="What's on you mind Arvind? " onClick={HanderOpen}/>
          </form>

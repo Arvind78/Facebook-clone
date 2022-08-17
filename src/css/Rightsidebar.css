@@ -24,11 +24,25 @@
 }
 .visitebodyoption {
     display: flex;
+  
     align-items: center;
     gap: 6px;
     cursor: pointer;
     
     line-height: 10px;
+}
+.visitebodyoption1 {
+    display: block;
+    gap: 6px;
+    cursor: pointer;
+    
+    line-height: 10px;
+}
+
+.option{
+    display: flex;
+    gap: 6px;
+    align-items: center;
 }
 .visitebodyoption svg{
     font-size: 16px;

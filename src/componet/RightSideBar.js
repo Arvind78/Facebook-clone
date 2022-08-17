@@ -18,7 +18,8 @@
       </div>
       <div className="visitebody">
         <div className="visitebodyoption">
-        <Avatar/>
+        <Avatar src={('https://i.postimg.cc/6TsghcG6/photo-1503443207922-dff7d543fd0e-ixlib-rb-1-2.jpg')}/>
+
        <h4>Arvind </h4>
         </div>
         <div className="visitebodyoption">
@@ -43,12 +44,32 @@
         </div>
        </div>
       
-        <div className="visitebodyoption">
-        <Avatar/>
-       <h4>Arvind </h4>
+        <div className="visitebodyoption1">
+          <div className="option">
+          <Avatar src={('https://i.postimg.cc/VNFGC1RN/pexels-photo-1043474.jpg')}/>
+      <h4>Arvind</h4>
+        </div>
+
+       <div className="option">
+       <Avatar src={('https://i.postimg.cc/6TsghcG6/photo-1503443207922-dff7d543fd0e-ixlib-rb-1-2.jpg')}/>
+      <h4>Sujeet</h4>
+        </div>
+        
+       <div className="option">
+       <Avatar src={('https://i.postimg.cc/HLq7t7kW/photo-1552642986-ccb41e7059e7-ixlib-rb-1-2.jpg')}/>
+       <h4>Rohit </h4>
+       </div>
+
+       <div className="option">
+       <Avatar src={('https://i.postimg.cc/0jdWvsBm/image.jpg')}/>
+       <h4>Ajeet </h4>
+       </div>
+
+
+
         </div>
  
-     
+        
      </div>
    )
  }

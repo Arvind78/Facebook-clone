@@ -26,6 +26,8 @@
     .Story h4{
         position: absolute;
         bottom: 0px;
+        
+        padding:0px 4px;
         /* text-align: center; */
         /* left: 10px; */
         color: #fff;

@@ -7,6 +7,7 @@
         {props.src && <Avatar src={props.src}/>}
         {props.Icon &&  <props.Icon/>}
    <p> { props.title  }</p> 
+  
      </div>
    )
  }

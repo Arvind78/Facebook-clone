@@ -18,7 +18,7 @@ function App() {
         <div>
         <Header/>
         <div className="app_body">
-        <Sidebar/>
+        <Sidebar />
          <Feed/>
       <RightSideBar/>
         </div>

@@ -1,8 +1,15 @@
 .sideBer{
-  margin:20px ;
+ 
   flex:0.37 ;
-  position: sticky;
-  /* top: 30px;  */
-  /* margin-top: 10px;  */
-
+  padding: 0px 10px;
+  overflow-y: scroll;
+  width: 25px;
+  height: calc(100vh -40px);
 }   
+
+.sideBer::-webkit-scrollbar {
+  background: lightgray;
+  width: 5px;
+ 
+}
+ 
